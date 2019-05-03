@@ -80,13 +80,7 @@ Once you finish setting up the workspace, try to run the demo as follows:
    $ virtuoso &
    ```
 
-3. in virtuoso CIW window, run
-
-   ```
-   load("start_bag.il")
-   ```
-   
-4. in the terminal, run
+3. in the terminal, run
 
    ```
    $ ./start_tutorial.sh
