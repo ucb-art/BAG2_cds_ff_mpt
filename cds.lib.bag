@@ -2,4 +2,4 @@ DEFINE BAG_prim $BAG_TECH_CONFIG_DIR/BAG_prim
 DEFINE demo_templates $BAG_WORK_DIR/BAG_XBase_demo/demo_templates
 DEFINE demo_testbenches $BAG_WORK_DIR/BAG_XBase_demo/demo_testbenches
 DEFINE bag_advanced_examples $BAG_WORK_DIR/bag_advanced_examples/bag_advanced_examples
-DEFINE bag_testbenches_ec $BAG_WORK_DIR/bag_testbenches_ec/bag_testbenches_ec
+DEFINE bag_testbenches $BAG_WORK_DIR/bag_testbenches/bag_testbenches

@@ -13,3 +13,6 @@
 [submodule "bag_advanced_examples"]
 	path = bag_advanced_examples
 	url = https://github.com/ucb-art/bag_advanced_examples.git
+[submodule "bag_testbenches"]
+	path = bag_testbenches
+	url = https://github.com/ucb-art/bag_testbenches.git
