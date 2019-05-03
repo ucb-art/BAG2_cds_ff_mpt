@@ -1,0 +1,65 @@
+dsn_basename: MOS_NCH
+dut_cell: mos_analogbase
+dut_lib: bag_testbenches_ec
+dut_wrappers: []
+env_list: [tt]
+impl_lib: AAAFOO_MOSCHAR_NCH
+layout_class: Transistor
+layout_package: abs_templates_ec.mos_char
+layout_params:
+  fg: 20
+  fg_dum: 4
+  intent: standard
+  lch: 1.8e-08
+  mos_type: nch
+  ntap_w: 6
+  ptap_w: 6
+  stack: 1
+  tr_sp_dict: {db: 1, gd: 1, gs: 1, sb: 1}
+  tr_w_dict: {d: 2, g: 1, s: 2}
+  w: 4
+measurements:
+- fg: 20
+  is_nmos: true
+  meas_class: MOSCharSS
+  meas_package: verification_ec.mos.sim
+  meas_type: mos_ss
+  out_fname: mos_ss.yaml
+  testbenches:
+    ibias:
+      ibias_max_fg: 0.0002
+      ibias_min_fg: 1.0e-06
+      sch_params: {}
+      tb_cell: mos_tb_ibias
+      tb_class: MOSIdTB
+      tb_lib: bag_testbenches_ec
+      tb_package: verification_ec.mos.sim
+      vgs_max: 1.0
+      vgs_num: 200
+      vgs_resolution: 0.004
+      wrapper_type: ''
+    sp:
+      cfit_method: average
+      sch_params: {}
+      sp_freq: 1000000.0
+      tb_cell: mos_tb_sp
+      tb_class: MOSSPTB
+      tb_lib: bag_testbenches_ec
+      tb_package: verification_ec.mos.sim
+      vbs: [0.0, 0.15, 0.3, 0.45]
+      vds_max: 1.0
+      vds_min: 0.005
+      vds_num: 20
+      vgs_num: 30
+      wrapper_type: ''
+rcx_params: {}
+root_dir: /tools/projects/ayan_biswas/BAG2_cds_ff_mpt/cds_ff_mpt/workspace_setup/tutorial_files/demo_data/mos_char_nch
+routing_grid:
+  bot_dir: x
+  layers: [4, 5]
+  spaces: [0.1, 0.1]
+  widths: [0.1, 0.1]
+summary_fname: summary.yaml
+sweep_params:
+  intent: [standard]
+view_name: schematic
