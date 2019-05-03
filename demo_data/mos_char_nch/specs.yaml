@@ -1,6 +1,6 @@
 dsn_basename: MOS_NCH
 dut_cell: mos_analogbase
-dut_lib: bag_testbenches_ec
+dut_lib: bag_testbenches
 dut_wrappers: []
 env_list: [tt]
 impl_lib: AAAFOO_MOSCHAR_NCH
@@ -22,7 +22,7 @@ measurements:
 - fg: 20
   is_nmos: true
   meas_class: MOSCharSS
-  meas_package: verification_ec.mos.sim
+  meas_package: verification.mos.sim
   meas_type: mos_ss
   out_fname: mos_ss.yaml
   testbenches:
@@ -32,8 +32,8 @@ measurements:
       sch_params: {}
       tb_cell: mos_tb_ibias
       tb_class: MOSIdTB
-      tb_lib: bag_testbenches_ec
-      tb_package: verification_ec.mos.sim
+      tb_lib: bag_testbenches
+      tb_package: verification.mos.sim
       vgs_max: 1.0
       vgs_num: 200
       vgs_resolution: 0.004
@@ -44,8 +44,8 @@ measurements:
       sp_freq: 1000000.0
       tb_cell: mos_tb_sp
       tb_class: MOSSPTB
-      tb_lib: bag_testbenches_ec
-      tb_package: verification_ec.mos.sim
+      tb_lib: bag_testbenches
+      tb_package: verification.mos.sim
       vbs: [0.0, 0.15, 0.3, 0.45]
       vds_max: 1.0
       vds_min: 0.005
