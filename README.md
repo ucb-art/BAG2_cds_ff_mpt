@@ -51,7 +51,7 @@ and install it.
 9. (non-BWRC users) in `cds_ff_mpt/workspace_setup/.cdsinit.personal`, in the last command where it sets the
    simulation data directory (the `projectDir` variable), change it to a suitable location.
 
-10. Create a new folder for temporary BAG files:
+10. Create a new folder for temporary BAG files in the main BAG2_cds_ff_mpt folder:
     ```
     mkdir BAGTMP
     ```
