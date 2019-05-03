@@ -1,0 +1,6 @@
+BAG_XBase_demo:
+  url: https://github.com/ucb-art/BAG_XBase_demo.git
+bag_testbenches_ec:
+  url: https://github.com/ucb-art/bag_testbenches_ec.git
+bag_advanced_examples:
+  url: https://github.com/ucb-art/bag_advanced_examples.git
