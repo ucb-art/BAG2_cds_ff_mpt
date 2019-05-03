@@ -56,6 +56,11 @@ and install it.
     mkdir BAGTMP
     ```
 
+11. Create a new cds.lib and add the following to the file:
+    ```
+    INCLUDE $BAG_WORK_DIR/cds.lib.core
+    ```
+
 ## Running BAG
 
 Once you finish setting up the workspace, try to run the demo as follows:
