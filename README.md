@@ -56,6 +56,11 @@ and install it.
     mkdir BAGTMP
     ```
 
+11. Create a new cds.lib and add the following to the file:
+    ```
+    INCLUDE $BAG_WORK_DIR/cds.lib.core
+    ```
+
 ## Running BAG
 
 Once you finish setting up the workspace, try to run the demo as follows:
@@ -75,13 +80,7 @@ Once you finish setting up the workspace, try to run the demo as follows:
    $ virtuoso &
    ```
 
-3. in virtuoso CIW window, run
-
-   ```
-   load("start_bag.il")
-   ```
-   
-4. in the terminal, run
+3. in the terminal, run
 
    ```
    $ ./start_tutorial.sh
