@@ -3,3 +3,4 @@ DEFINE demo_templates $BAG_WORK_DIR/BAG_XBase_demo/demo_templates
 DEFINE demo_testbenches $BAG_WORK_DIR/BAG_XBase_demo/demo_testbenches
 DEFINE bag_advanced_examples $BAG_WORK_DIR/bag_advanced_examples/bag_advanced_examples
 DEFINE bag_testbenches $BAG_WORK_DIR/bag_testbenches/bag_testbenches
+DEFINE bag2_generator_playground $BAG_WORK_DIR/bag2_generator_playground/bag2_generator_playground
