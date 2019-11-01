@@ -16,3 +16,6 @@
 [submodule "bag_testbenches"]
 	path = bag_testbenches
 	url = https://github.com/ucb-art/bag_testbenches.git
+[submodule "bag2_generator_playground"]
+	path = bag2_generator_playground
+	url = git@bwrcrepo.eecs.berkeley.edu:BAG/bag2_generator_playground.git

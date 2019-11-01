@@ -3,3 +3,4 @@ demo_templates $BAG_WORK_DIR/BAG_XBase_demo/BagModules
 demo_testbenches $BAG_WORK_DIR/BAG_XBase_demo/BagModules
 bag_advanced_examples $BAG_WORK_DIR/bag_advanced_examples/BagModules
 bag_testbenches $BAG_WORK_DIR/bag_testbenches/BagModules
+bag2_generator_playground $BAG_WORK_DIR/bag2_generator_playground/BagModules
