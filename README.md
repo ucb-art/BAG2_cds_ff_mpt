@@ -29,6 +29,18 @@ and install it.
 
    If you are running the xbase demo, DO NOT check out master branches of submodules.
 
+   If you encounter an error such as
+   ```
+   error: Server does not allow request for unadvertised object e5e6e12f8e3d42f58adeb134aae2f362380c39c2
+   Fetched in submodule path 'BAG2_TEMPLATES_EC', but it did not contain e5e6e12f8e3d42f58adeb134aae2f362380c39c2. Direct fetching of that commit failed.
+   ```
+
+   Try adding the `--remote` flag to the submodule update:
+
+   ```
+   $ git submodule update --init --remote --recursive
+   ```
+
 4. (non-BWRC users) Update the symbolic link `cds_ff_mpt/workspace_setup/PDK` to point to the cds_ff_mpt 
    PDK installation location; the `cds_ff_mpt_v_0.3` folder.
   
