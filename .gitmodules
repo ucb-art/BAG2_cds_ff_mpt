@@ -1,12 +1,6 @@
-[submodule "BAG_framework"]
-	path = BAG_framework
-	url = https://github.com/ucb-art/BAG_framework.git
 [submodule "cds_ff_mpt"]
 	path = cds_ff_mpt
 	url = https://github.com/ucb-art/cds_ff_mpt.git
-[submodule "BAG2_TEMPLATES_EC"]
-	path = BAG2_TEMPLATES_EC
-	url = https://github.com/ucb-art/BAG2_TEMPLATES_EC.git
 [submodule "BAG_XBase_demo"]
 	path = BAG_XBase_demo
 	url = https://github.com/ucb-art/BAG_XBase_demo.git
@@ -22,3 +16,9 @@
 [submodule "bag_analog_ec"]
 	path = bag_analog_ec
 	url = git@github.com:ucb-art/bag_analog_ec.git
+[submodule "BAG_framework"]
+	path = BAG_framework
+	url = git@github.com:ucb-art/BAG_framework.git
+[submodule "BAG2_TEMPLATES_EC"]
+	path = BAG2_TEMPLATES_EC
+	url = git@github.com:ucb-art/BAG2_TEMPLATES_EC.git
