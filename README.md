@@ -30,12 +30,12 @@ and install it.
    If you are running the xbase demo, DO NOT check out master branches of submodules.
 
 4. (non-BWRC users) Update the symbolic link `cds_ff_mpt/workspace_setup/PDK` to point to the cds_ff_mpt 
-   PDK installation location; the `cds_ff_mpt_v_0.3` folder.
+   PDK installation location; the `cds_ff_mpt_v_0.5` folder.
   
 5. (non-BWRC users) Update `cds_ff_mpt/workspace_setup/{.cshrc, .bashrc}` to point to your tools locations.
    The tools needed by this demo are:
 
-   - Virtuoso ICADV 12.3 (or 12.1)
+   - Virtuoso ICADVM 181
    - PVS 15.1
    
 6. (non-BWRC users) Update `cds_ff_mpt/workspace_setup/{.cshrc_bag, .bashrc_bag}` to point to the Anaconda 
